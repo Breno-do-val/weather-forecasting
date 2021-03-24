@@ -16,4 +16,14 @@
 
     </div>
 
+    <jv-loader *ngIf="loading$ | async"></jv-loader>
+
+    <div *ngIf="!(loading$ | async) && !(error$ | async) && !!(cityWeather$| async)">
+        {{ (cityWeather$ | async).city.name }}
+    </div>
+
+    <div *ngIf="!(loading$ | async) && error$ | async">
+        <a>Tentar novamente!</a>
+    </div>
+
 </div>
