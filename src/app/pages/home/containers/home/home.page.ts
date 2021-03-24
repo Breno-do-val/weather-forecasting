@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { CityWeather } from '../../shared/models/weather.model';
+import { CityWeather } from '../../../../shared/models/weather.model';
 
-import * as fromHomeActions from './state/home.actions';
-import * as fromHomeSelectors from './state/home.selectors';
+import * as fromHomeActions from '../../state/home.actions';
+import * as fromHomeSelectors from '../../state/home.selectors';
 @Component({
   selector: 'jv-home',
   templateUrl: './home.page.html',
