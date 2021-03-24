@@ -3,7 +3,7 @@ import { HomeState } from "./home.reducer";
 
 export const selectHomeState = createFeatureSelector('home');
 
-export const selectHomeText = createSelector(
-    selectHomeState,
-    (homeState: HomeState) => homeState.text
-)
+// export const selectHomeText = createSelector(
+//     selectHomeState,
+//     (homeState: HomeState) => homeState.text
+// )
