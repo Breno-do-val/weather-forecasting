@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { ComponentsModule } from './../../shared/components/components.module';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
@@ -17,6 +18,7 @@ import { CurrentWeatherComponent } from './components/current-weather/current-we
     CommonModule,
     ComponentsModule,
     ReactiveFormsModule,
+    RouterModule,
     StoreModule.forFeature('home', homeReducer),
     EffectsModule.forFeature([ HomeEffects])
   ]
