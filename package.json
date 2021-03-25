@@ -25,6 +25,7 @@
     "@ngrx/store-devtools": "^9.2.1",
     "bootstrap": "^4.5.0",
     "js-search": "^2.0.0",
+    "moment-timezone": "^0.5.33",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
