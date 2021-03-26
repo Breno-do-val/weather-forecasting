@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,6 +11,7 @@ import { bookmarkReducer } from './state/bookmarks.reducer';
   declarations: [BookmarksPage],
   imports: [
     CommonModule,
+    RouterModule,
     StoreModule.forFeature('bookmarks', bookmarkReducer)
   ]
 })
