@@ -21,8 +21,7 @@ Application developed using Angular 11.
 ### Featuring
   > NgRx for state management\
   > ControlValueAccessor for input's componentization\
-  > Angular portal for content projection\
-
+  > Angular portal for content projection
 
 ## Technologies and dependencies
 ```
