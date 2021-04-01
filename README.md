@@ -6,7 +6,7 @@ Application developed in Angular for Weather Forecasting
   - [Table of Content](#table-of-content)
   - [Screenshots](#screenshots)
   - [General info](#general-info)
-    - [Featuring:](#featuring)
+    - [Featuring](#featuring)
   - [Technologies and dependencies](#technologies-and-dependencies)
   - [Setup](#setup)
   - [Author](#author)
@@ -18,10 +18,10 @@ Application developed in Angular for Weather Forecasting
 
 ## General info
 Application developed using Angular 11.
-### Featuring:
-  > NgRx for state management
-  > ControlValueAccessor for input's componentization
-  > Angular portal for content projection
+### Featuring
+  > NgRx for state management\
+  > ControlValueAccessor for input's componentization\
+  > Angular portal for content projection\
 
 
 ## Technologies and dependencies
