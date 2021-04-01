@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DailyWeatherComponent } from './daily-weather.component';
+import { CitiesTypeaheadComponent } from './cities-typeahead.component';
 
-describe('DailyWeatherComponent', () => {
-  let component: DailyWeatherComponent;
-  let fixture: ComponentFixture<DailyWeatherComponent>;
+describe('CitiesTypeaheadComponent', () => {
+  let component: CitiesTypeaheadComponent;
+  let fixture: ComponentFixture<CitiesTypeaheadComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DailyWeatherComponent ]
+      declarations: [ CitiesTypeaheadComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DailyWeatherComponent);
+    fixture = TestBed.createComponent(CitiesTypeaheadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
